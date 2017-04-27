@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bitmap1"
+    android:id="@+id/layoutmain">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:fillViewport="true"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="58dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/linearLayout"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_below="@+id/imageView2">
+
+                <ImageView
+                    android:layout_width="280dp"
+                    android:layout_height="199dp"
+                    android:src="@drawable/logo_default"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_gravity="center_horizontal" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:hint="E-mail"
+                    android:drawableLeft="@drawable/ic_email"
+                    android:drawablePadding="10dp"
+                    android:textColorHint="#fff"
+                    android:ems="10"
+                    android:id="@+id/editTextEmail"
+                    android:fontFamily="Roboto-Regular"
+                    android:textSize="14sp" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/editTextPass"
+                    android:hint="Senha"
+                    android:drawableLeft="@drawable/ic_lock1"
+                    android:drawablePadding="10dp"
+                    android:textColorHint="#fff"
+                    android:fontFamily="Roboto-Regular"
+                    android:textSize="14sp"
+                    android:layout_marginTop="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Esqueci minha senha"
+                    android:id="@+id/textRecupera"
+                    android:layout_gravity="right"
+                    android:fontFamily="Roboto-Regular"
+                    android:textSize="10sp"
+                    android:textColor="#fff"
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:text="ENTRAR"
+                    android:id="@+id/btnEntrar"
+                    android:textColor="#fff"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/button_login"
+                    android:elevation="3dp"
+                    android:layout_marginTop="20dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_gravity="center_horizontal"
+                    android:background="@drawable/button_fb"
+                    android:layout_marginTop="15dp"
+                    android:elevation="3dp"
+                    android:clickable="true"
+                    android:id="@+id/btnFacebook">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:text="ENTRAR COM FACEBOOK"
+                        android:id="@+id/textView2"
+                        android:layout_gravity="center_horizontal"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                    <ImageView
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:id="@+id/imageView3"
+                        android:src="@drawable/ic_facebook"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:text="Nāo tem uma conta? CADASTRAR"
+                        android:id="@+id/cadastro"
+                        android:textColor="#fff"
+                        android:textSize="14sp"
+                        android:gravity="center_vertical|center_horizontal"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginLeft="62dp"
+                        android:layout_marginStart="62dp" />
+
+                    <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:textAppearance="?android:attr/textAppearanceLarge"-->
+                    <!--android:text="CADASTRAR"-->
+                    <!--android:id="@+id/txtCadastro"-->
+                    <!--android:textColor="#000"-->
+                    <!--android:textSize="14sp"-->
+                    <!--android:layout_centerVertical="true"-->
+                    <!--android:layout_toRightOf="@+id/textView3"-->
+                    <!--android:layout_toEndOf="@+id/textView3"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_marginLeft="5dp" />-->
+                </RelativeLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:background="#5f2048"
+        android:id="@+id/layout_color">
+
+        <ImageView
+            android:layout_width="215dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/city"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="NENHUM DE NoS E ROBERTA CAMPOS"
+            android:id="@+id/titulo"
+            android:textSize="11sp"
+            android:textStyle="bold"
+            android:textColor="#fff"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView4"
+            android:layout_toEndOf="@+id/imageView4"
+            android:layout_marginLeft="27dp"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="4 DE NOVEMBRO \n Tetro Positivo"
+            android:textSize="10sp"
+            android:textColor="#fff"
+            android:id="@+id/local"
+            android:layout_below="@+id/titulo"
+            android:layout_alignLeft="@+id/titulo"
+            android:layout_alignStart="@+id/titulo"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:src="@drawable/ic_more"
+            android:scaleType="centerCrop"
+            android:id="@+id/add"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+</LinearLayout>

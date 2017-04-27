@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#252931">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/minilogo_clubeprime"
+            android:layout_marginLeft="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginTop="5dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cirleimageView"
+                android:layout_width="wrap_content"
+                android:src="@drawable/foto"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginBottom="25dp"
+                android:layout_marginRight="15dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Adri Rock"
+                android:id="@+id/nome"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:layout_marginLeft="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/cirleimageView"
+                android:layout_toEndOf="@+id/cirleimageView"
+                android:layout_marginTop="24dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="123dp"
+        android:background="#5f2048"
+        android:id="@+id/layout_color">
+
+        <ImageView
+            android:layout_width="215dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/diogo"
+            android:scaleType="centerCrop"
+            android:id="@+id/imageView4" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/imageView4"
+            android:layout_toEndOf="@+id/imageView4">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="REZENDE EVIL"
+                android:id="@+id/titulo"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center_horizontal" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>

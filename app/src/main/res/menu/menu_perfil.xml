@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/camera"
+    android:icon="@drawable/ic_camera"
+    app:showAsAction="always"
+    android:title="Adicionar Foto"/>
+</menu>

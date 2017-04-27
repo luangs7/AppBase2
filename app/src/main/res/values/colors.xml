@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fff</color>
+    <color name="colorPrimaryDark">#000</color>
+    <color name="colorAccent">#fff</color>
+    <color name="buttonLoginPressed">#802d2d2d</color>
+    <color name="buttonLoginDisabled">#962d2d2d</color>
+    <color name="buttonFb">#4c76be</color>
+    <color name="buttonFbPressed">#804c76be</color>
+    <color name="text">#fff</color>
+    <color name="white">#fff</color>
+
+    <color name="menuactive">#000</color>
+    <color name="menudesactive">#252931</color>
+
+    <color name="color1">#5f2048</color>
+    <color name="color2">#51959d</color>
+    <color name="color3">#f2664d</color>
+    <color name="color4">#ad5766</color>
+    <color name="color5">#e49103</color>
+
+</resources>
