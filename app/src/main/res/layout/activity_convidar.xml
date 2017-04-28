@@ -15,7 +15,6 @@
         android:layout_alignParentTop="true"
         android:background="#000"
         android:elevation="6dp"
-        app:logo="@drawable/minilogo_clubeprime"
         app:title="Convide um Amigo"
         app:contentInsetStartWithNavigation="5dp"
         android:minHeight="?attr/actionBarSize"

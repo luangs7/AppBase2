@@ -15,7 +15,6 @@
         android:layout_alignParentTop="true"
         android:background="@android:color/transparent"
         android:elevation="6dp"
-        app:logo="@drawable/minilogo_clubeprime"
         app:title="Atualizar Perfil"
         app:contentInsetStartWithNavigation="5dp"
         android:minHeight="?attr/actionBarSize"

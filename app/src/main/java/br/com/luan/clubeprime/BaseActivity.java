@@ -113,11 +113,10 @@ public class BaseActivity extends AppCompatActivity {
         leftMenus.add(new LeftMenu(1,"Perfil", icons[0],icons_active[0],true));
         leftMenus.add(new LeftMenu(2,"Eventos", icons[1],icons_active[1],false));
         leftMenus.add(new LeftMenu(3,"Favoritos",icons[2],icons_active[2],false));
-        leftMenus.add(new LeftMenu(4,"Promoções",icons[3],icons_active[3],false));
-        leftMenus.add(new LeftMenu(5,"Sorteios", icons[4],icons_active[4],false));
-        leftMenus.add(new LeftMenu(6,"Ingresso Digital",icons[5],icons_active[5],false));
-        leftMenus.add(new LeftMenu(7,"Convide um Amigo", icons[6],icons_active[6],false));
-        leftMenus.add(new LeftMenu(8,"Deslogar", icons[7],icons_active[7],false));
+        leftMenus.add(new LeftMenu(4,"Sorteios", icons[3],icons_active[3],false));
+        leftMenus.add(new LeftMenu(5,"Ingresso Digital",icons[4],icons_active[4],false));
+        leftMenus.add(new LeftMenu(6,"Convide um Amigo", icons[5],icons_active[5],false));
+        leftMenus.add(new LeftMenu(7,"Deslogar", icons[6],icons_active[6],false));
 
 
         try{
@@ -186,28 +185,22 @@ public class BaseActivity extends AppCompatActivity {
                 favoritos.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(favoritos);
                 break;
-//
-//            case 4:
-//                Intent intentInforme= new Intent(getApplication(), InformeActivity.class).putExtra("position", i);
-//                intentInforme.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//                startActivity(intentInforme);
-//                break;
-            case 5:
+            case 4:
                 Intent sorteio= new Intent(getApplication(), SorteioActivity.class).putExtra("position", i);
                 sorteio.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(sorteio);
                 break;
-            case 6:
+            case 5:
                 Intent ingresso = new Intent(getApplication(), IngressoActivity.class).putExtra("position", i);;
                 ingresso.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(ingresso);
                 break;
-            case 7:
+            case 6:
                 Intent intentCalendario = new Intent(getApplication(), ConvidarActivity.class).putExtra("position", i);
                 intentCalendario.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(intentCalendario);
                 break;
-            case 8:
+            case 7:
                 Intent logout  = new Intent(getApplication(), LoginActivity.class).putExtra("position", i);
                 logout.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 finishAffinity();

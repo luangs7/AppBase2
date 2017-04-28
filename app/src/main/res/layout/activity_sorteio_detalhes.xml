@@ -23,7 +23,6 @@
             android:background="@android:color/transparent"
             android:elevation="1dp"
             app:navigationIcon="@drawable/ic_arrow_left"
-            app:logo="@drawable/minilogo_clubeprime"
             app:contentInsetStartWithNavigation="5dp"
             android:minHeight="?attr/actionBarSize"
             android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"

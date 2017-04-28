@@ -13,7 +13,6 @@
         android:layout_alignParentTop="true"
         android:background="#fff"
         android:elevation="6dp"
-        app:logo="@drawable/minilogo_clubeprime"
         app:title="Favoritos"
         app:titleTextColor="#ffffff"
         app:contentInsetStartWithNavigation="10dp"

@@ -14,7 +14,6 @@
         android:layout_alignParentTop="true"
         android:background="#171a1f"
         android:elevation="6dp"
-        app:logo="@drawable/minilogo_clubeprime"
         app:navigationIcon="@drawable/ic_arrow_left"
         app:title="Sorteios"
         app:contentInsetStartWithNavigation="5dp"
